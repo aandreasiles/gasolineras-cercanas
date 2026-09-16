@@ -29,7 +29,15 @@ export function StationCard({
         <div className="station-card__info">
           <p className="station-card__name">{station.name}</p>
           <p className="station-card__address">
-            {station.address} · {station.municipality} ({station.province})
+            {station.address} · {station.municipality} ({station.province}){' '}
+            <a
+              className="station-card__maps-link"
+              href={`https://www.google.com/maps?q=${station.lat},${station.lng}`}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Ver en mapa
+            </a>
           </p>
           <p className="station-card__meta">
             {isCheapest && <span className="badge">La más barata</span>}

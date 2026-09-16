@@ -200,6 +200,16 @@ body {
   color: var(--color-text-muted);
 }
 
+.station-card__maps-link {
+  color: var(--color-accent);
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.station-card__maps-link:hover {
+  text-decoration: underline;
+}
+
 .station-card__meta {
   display: flex;
   flex-wrap: wrap;
