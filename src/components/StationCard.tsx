@@ -36,7 +36,7 @@ export function StationCard({
               target="_blank"
               rel="noopener noreferrer"
             >
-              Ver en mapa
+📍 Ver en mapa
             </a>
           </p>
           <p className="station-card__meta">
